@@ -5,17 +5,17 @@ A simple lambda function that cleans up your Elastic Beanstalk application versi
 
 ## Using aws-lambda-elasticbeanstalk-cleanup
 
-Create a new Python Lambda Function in your aws console, and paste the code, change the region and limit values at the top of the code accordingly to your needs:
+Create a new Python Lambda Function in your aws console, and paste the code, change the region and limit values at the top of the code according to your needs:
 
     versionsLimit = 25
     region = "us-west-2"
 
-Set the Memory and Timeout values for example:
+Set the Memory and Timeout values for your function, for example:
 
     Memory (MB): 128
     Timeout    : 1 min
 
-And that's it, you can the configure how can your function will be triggered, using a Scheduled Event or so :).
+And that's it, you can then configure how can your function will be triggered, using a Scheduled Event or so :).
 
 ## IAM Role
 
