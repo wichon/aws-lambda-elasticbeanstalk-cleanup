@@ -17,7 +17,7 @@ Set the Memory and Timeout values for your function, for example:
     Memory (MB): 128
     Timeout    : 1 min
 
-And that's it, you can then configure how can your function will be triggered, using a Scheduled Event or so :).
+And that's it, you can then configure how your function will be triggered, using a Scheduled Event or so :).
 
 ## IAM Role
 
